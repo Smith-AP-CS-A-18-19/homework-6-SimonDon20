@@ -20,7 +20,7 @@ public class Homework6 {
 	 * String lexicographically, return false if it does not
 	 */
 	public boolean isBefore(String other) {
-			if(str.compareTo(other) > 1) {
+			if(str.compareTo(other) > 0) {
 				return true;
 			} else {
 				return false;
@@ -62,7 +62,7 @@ public class Homework6 {
 				if(first > second) {
 					return first;
 				} else {
-					return third;
+					return second;
 				}
 		} else if (first == second && second > third) {
 			return third;
